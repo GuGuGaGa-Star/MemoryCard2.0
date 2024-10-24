@@ -61,7 +61,7 @@ lb_Correct = QLabel('') # тут буде написано текст прави
 # Розміщуємо результат тесту:
 layout_res = QVBoxLayout()
 layout_res.addWidget(lb_Result, alignment=(Qt.AlignLeft | Qt.AlignTop))
-layout_res.addWidget(lb_Correct, alignment=Qt.AlignHCenter, stretch=2)
+layout_res.addWidget(lb_Correct, alignment=(Qt.AlignHCenter | Qt.AlignHCenter), stretch=2)
 AnsGroupBox.setLayout(layout_res)
 AnsGroupBox.hide()
 

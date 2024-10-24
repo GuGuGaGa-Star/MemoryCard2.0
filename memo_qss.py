@@ -1,8 +1,11 @@
 # Оформлення
 QSS = '''
 
+
+
 QWidget#mainWindow, QWidget#cardWindow {
-    background-color: #2e2d2f;
+    background-image: url("omori_review_igry-1610048353.jpg");
+    background-position: center;
 }
 
 QWidget {
@@ -15,9 +18,10 @@ QPushButton {
     border-width: 1px;
     border-radius: 10px;
     border-color: gray;
-    font: 11px "Montserrat";
+    font: 15px "Montserrat";
     min-width: 10em;
     padding: 6px;
+    color:black;
 }
 QPushButton:pressed {
     background-color: gray;
@@ -38,6 +42,9 @@ QGroupBox::title {
 
 QRadioButton {
     font: bold 30px;
+    color:white;
+    background-color:#6c0ffe; 
+    
 }
 QRadioButton::indicator {
     width: 14px;
@@ -66,6 +73,7 @@ QRadioButton::indicator::checked {
 
 QLabel { 
     color: white;
+    font: 35px;
 }
 '''
 
